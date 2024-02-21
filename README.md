@@ -1,5 +1,4 @@
 
-
 # DApp BoilerPlate
 
 ## Overview
@@ -12,14 +11,14 @@ Follow these steps to set up and start the DApp:
 
 ### 1. Smart Contract
 
-- Place your smart contract file (`YourContract.sol`) in the `contracts` folder and aslo name Contract name also as `YourContract`.
+- Place your smart contract file (`YourContract.sol`) in the `contracts` folder and also name the contract `YourContract`.
 - Ensure your Solidity version is correctly specified in `truffle-config.js`.
 
 ### 2. Compile and Deploy
 
 - Open Ganache and ensure it's running.
 - Run the deploy command in the terminal:
-  ```
+  ```bash
   truffle migrate --network development
   ```
 
@@ -27,7 +26,7 @@ Follow these steps to set up and start the DApp:
 
 - In the terminal, navigate to the `build` directory.
 - Install dependencies by running:
-  ```
+  ```bash
   npm install
   ```
 
@@ -38,13 +37,13 @@ Follow these steps to set up and start the DApp:
 ### 5. Run the DApp
 
 - Start the React app by running:
-  ```
+  ```bash
   npm run dev
   ```
 
 ### 6. Start Developing
 
-- Open the DesignPage component in the `build` folder.
+- Open the `DesignPage.jsx` component in the `build` folder.
 - Begin developing your DApp's smart contract function interactions.
 
 ## Additional Notes
@@ -56,3 +55,8 @@ Follow these steps to set up and start the DApp:
 
 If you encounter any issues or have questions about this BoilerPlate, feel free to reach out.
 
+To clone the repository, use the following command:
+
+```bash
+git clone https://github.com/johnp2002/DApp_Starter_Boilerplate.git
+```
