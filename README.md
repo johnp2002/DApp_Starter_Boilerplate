@@ -1,6 +1,4 @@
-Sure, here's a README file outlining the steps to set up and start the DApp BoilerPlate:
 
----
 
 # DApp BoilerPlate
 
